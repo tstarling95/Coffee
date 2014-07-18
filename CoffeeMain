@@ -1,0 +1,6 @@
+def main():
+    weight = eval(input('Enter the weight of coffee beans in pounds: '))
+    cost = (weight * 10.50) + (weight * 0.86) + 1.50
+    print('The cost of the coffee bean order is', cost, 'dollars')
+    
+main()
